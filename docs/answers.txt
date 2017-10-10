@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  a)
     $ git status
     On branch development
@@ -36,3 +37,6 @@
     Both polymorphism and encapsulation are being used.
       1) Polymorphism: All weapons(i.e. Sword, Axe, etc...) are a child class of class Weapon
       2) Encapsulation: Class Weapon has both a public and protected section.
+=======
+ 
+>>>>>>> development
