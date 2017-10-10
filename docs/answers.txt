@@ -1,0 +1,38 @@
+ a)
+    $ git status
+    On branch development
+    Your branch is up-to-date with 'origin/development'.
+
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+
+         modified:   README.md
+ b)
+    6 commits have been done to the repository. "git log" gives all previous commits.
+ c)
+     Wed Sep 27 16:31:42 2017 used: "git log .gitignore"
+ d)
+    36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+    cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+
+ e)
+    Git's branch ability is incredibly lightweight, making branching operations nearly instantaneous, and switching back and forth between branches generally just as fast
+    There is no need to copy source code directory.
+ f)
+    git status lets the user know if there is anything that he has changed that hasnt been added to the repository. Git log shows what has been commited.
+ g)
+    "git log Weapon.h"
+ h)
+     "git log --grep=file"
+ i)
+    I)
+      Inheritance is when a class has a base class. These classes can share member data and member functions. Usually a has-a-relationship
+    II)
+      Polymorphism is a hierarchy of classes and they are related by inheritance.
+    III)
+      binds together the data and functions that manipulate the data, and that keeps both safe from outside interference and misuse (i.e. private, protected, public).
+
+7)
+    Both polymorphism and encapsulation are being used.
+      1) Polymorphism: All weapons(i.e. Sword, Axe, etc...) are a child class of class Weapon
+      2) Encapsulation: Class Weapon has both a public and protected section.
